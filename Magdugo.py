@@ -24,5 +24,5 @@ class SquareRootTestCase(unittest.TestCase):
         self.assertEqual(result, "Square root of a negative number is undefined.")
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     unittest.main()
